@@ -1,0 +1,28 @@
+#containerRow{
+    flex: auto;
+    height:320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row{
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+}
+
+.column{
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+button{
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
